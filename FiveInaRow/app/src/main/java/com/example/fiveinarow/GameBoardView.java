@@ -83,8 +83,6 @@ public class GameBoardView extends View {
                     brush.setColor(Color.WHITE);
                     brush.setStyle(Paint.Style.FILL);
                     canvas.drawCircle(x + tileSize / 2, y + tileSize / 2, tileSize / 2, brush);
-                } else {
-                    (new Exception("wtf")).printStackTrace();
                 }
             }
         }
