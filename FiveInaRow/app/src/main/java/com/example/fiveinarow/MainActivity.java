@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setUpBoardView();
+
+        // experiemnt
+        setUpStangeView();
     }
 
     void setUpBoardView() {
@@ -22,5 +25,10 @@ public class MainActivity extends AppCompatActivity {
         boardView = new GameBoardView(this, game);
         LinearLayout ll = findViewById(R.id.game_board_area);
         ll.addView(boardView);
+    }
+
+    void setUpStangeView() {
+        LinearLayout ll = findViewById(R.id.strange_view);
+        ll.addView(new StrangeView(this));
     }
 }

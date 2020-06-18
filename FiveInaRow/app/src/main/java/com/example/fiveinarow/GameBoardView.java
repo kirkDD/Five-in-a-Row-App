@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
+import android.hardware.SensorManager;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,6 +25,7 @@ public class GameBoardView extends View {
     Drawable WHITE_PNG;
 
     public GameBoardView(Context context, FiveInARowGame game) {
+
         super(context);
         setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         // initialize
@@ -40,12 +42,6 @@ public class GameBoardView extends View {
         size = Math.min(getWidth(), getHeight());
         numTileOneSide = game.getBoard().length;
         tileSize =  size / numTileOneSide;
-    }
-
-
-    @Override
-    public boolean performClick() {
-        return super.performClick();
     }
 
     @Override
