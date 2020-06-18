@@ -9,6 +9,10 @@ import java.util.Map;
 
 public class FiveInARowGame {
 
+    static final int WHITE = -1;
+    static final int BLACK = 1;
+
+
     // the game board
     private int[][] board;
 
