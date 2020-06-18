@@ -34,6 +34,12 @@ public class GameBoardView extends View {
         tileSize =  size / numTileOneSide;
     }
 
+
+    @Override
+    public boolean performClick() {
+        return super.performClick();
+    }
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()) {

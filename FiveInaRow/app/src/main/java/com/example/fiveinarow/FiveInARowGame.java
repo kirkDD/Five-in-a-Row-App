@@ -201,8 +201,8 @@ public class FiveInARowGame {
 
         s.append("******************\n");
         // add info
-        s.append("gameState: " + this.gameState + "\n");
-        s.append("turn: " + this.turn + "\n");
+        s.append("gameState: ").append(this.gameState).append("\n");
+        s.append("turn: ").append(this.turn).append("\n");
 
         // add the board
         for (int i = 0; i < board.length; i++) {
