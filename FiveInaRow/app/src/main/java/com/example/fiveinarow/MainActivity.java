@@ -2,6 +2,7 @@ package com.example.fiveinarow;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 

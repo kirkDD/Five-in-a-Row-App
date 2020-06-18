@@ -27,7 +27,7 @@ public class StrangeView extends View {
             public void onSensorChanged(SensorEvent sensorEvent) {
                 accelerations = sensorEvent.values;
                 for (int i = 0; i < accelerations.length; i++) {
-                    colors[i] = map(accelerations[i], -20, 20, 0,255);
+                    colors[i] = map(accelerations[i], -10, 10, 0,255);
                 }
                 invalidate();
             }

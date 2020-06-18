@@ -80,10 +80,10 @@ public class GameBoardView extends View {
                 brush.setColor(Color.GRAY);
                 canvas.drawRect(x, y, x + tileSize, y + tileSize, brush);
                 if (board[i][j] == FiveInARowGame.BLACK) {
-                    BLACK_PNG.setBounds((int) x, (int) y, (int) (x + tileSize), (int) (y + tileSize));
+                    BLACK_PNG.setBounds((int) x+1, (int) y+1, (int) (x + tileSize) - 1, (int) (y + tileSize) - 1);
                     BLACK_PNG.draw(canvas);
                 } else if (board[i][j] == FiveInARowGame.WHITE) {
-                    WHITE_PNG.setBounds((int) x, (int) y, (int) (x + tileSize), (int) (y + tileSize));
+                    WHITE_PNG.setBounds((int) x+1, (int) y+1, (int) (x + tileSize) - 1, (int) (y + tileSize) - 1);
                     WHITE_PNG.draw(canvas);
                 }
             }
