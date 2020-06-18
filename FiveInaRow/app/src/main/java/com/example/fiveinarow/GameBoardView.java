@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.drawable.Drawable;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +19,10 @@ public class GameBoardView extends View {
     // from parent
     FiveInARowGame game;
 
+
+    Drawable BLACK_PNG;
+    Drawable WHITE_PNG;
+
     public GameBoardView(Context context, FiveInARowGame game) {
         super(context);
         setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
@@ -26,6 +31,9 @@ public class GameBoardView extends View {
         brush = new Paint();
         brush.setStrokeWidth(3);
         brush.setColor(Color.DKGRAY);
+
+        BLACK_PNG = getResources().getDrawable(R.drawable.black_piece, null);
+        WHITE_PNG = getResources().getDrawable(R.drawable.white_piece, null);
     }
 
     void initDims() {
@@ -76,13 +84,11 @@ public class GameBoardView extends View {
                 brush.setColor(Color.GRAY);
                 canvas.drawRect(x, y, x + tileSize, y + tileSize, brush);
                 if (board[i][j] == FiveInARowGame.BLACK) {
-                    brush.setColor(Color.BLACK);
-                    brush.setStyle(Paint.Style.FILL);
-                    canvas.drawCircle(x + tileSize / 2, y + tileSize / 2, tileSize / 2, brush);
+                    BLACK_PNG.setBounds((int) x, (int) y, (int) (x + tileSize), (int) (y + tileSize));
+                    BLACK_PNG.draw(canvas);
                 } else if (board[i][j] == FiveInARowGame.WHITE) {
-                    brush.setColor(Color.WHITE);
-                    brush.setStyle(Paint.Style.FILL);
-                    canvas.drawCircle(x + tileSize / 2, y + tileSize / 2, tileSize / 2, brush);
+                    WHITE_PNG.setBounds((int) x, (int) y, (int) (x + tileSize), (int) (y + tileSize));
+                    WHITE_PNG.draw(canvas);
                 }
             }
         }
