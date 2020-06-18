@@ -10,7 +10,42 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda11a1-12c8-42e4-af16-6fe2a891439c" name="Default Changelist" comment="" />
+    <list default="true" id="7bda11a1-12c8-42e4-af16-6fe2a891439c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/androidTest/java/com/example/fiveinarow/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/java/com/example/fiveinarow/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/app/src/test/java/com/example/fiveinarow/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fiveinarow_1.0/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,9 +313,9 @@
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="469" y="253" key="git4idea.merge.GitPullDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1592505175332" />
-    <state x="419" y="0" width="840" height="1018" key="search.everywhere.popup" timestamp="1592521797281">
+    <state x="419" y="0" width="840" height="1018" key="search.everywhere.popup" timestamp="1592522285021">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="419" y="0" width="840" height="1018" key="search.everywhere.popup/0.0.1680.1020@0.0.1680.1020" timestamp="1592521797281" />
+    <state x="419" y="0" width="840" height="1018" key="search.everywhere.popup/0.0.1680.1020@0.0.1680.1020" timestamp="1592522285021" />
   </component>
 </project>
